@@ -61,17 +61,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    counter-increment: count;
-}
-
-.advantages__text {
     font-weight: 500;
     font-size: 20px;
     line-height: 28px;
     color: var(--second-color, #383A4C);
+    counter-increment: count;
 }
 
-.advantages__text::before {
+.advantages__item::before {
     content: counter(count);
     display: block;
     font-weight: 500;
@@ -117,13 +114,11 @@
         max-width: 666px;
     }     
     .advantages__item {
-        flex: 0 0 180px;        
-    }  
-    .advantages__text {
+        flex: 0 0 180px; 
         font-size: 18px;
-        line-height: 25px;
-    } 
-    .advantages__text::before {
+        line-height: 25px;       
+    }  
+    .advantages__item::before {
         font-size: 52px;
         line-height: 73px;
         padding: 15px;
