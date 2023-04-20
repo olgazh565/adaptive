@@ -1,6 +1,9 @@
+.footer {
+    padding: 45px 0;
+    background-color: #2F324B;    
+}
+
 .footer__container {
-    padding: 45px 200px;
-    background-color: #2F324B;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,8 +63,8 @@
 }
 
 @media (max-width: 1280px) {
-    .footer__container {
-        padding: 37px 30px 49px;       
+    .footer {
+        padding: 37px 0 49px;       
     }
     .footer__logo {
         width: 60px;
@@ -83,8 +86,11 @@
 }
 
 @media (max-width: 650px) {
+    .footer {
+        padding: 25px 0 0;
+    }
     .footer__container {
-        padding: 25px 15px;
+        padding-bottom: 25px;
     }
     .footer__logo {
         width: 30px;
@@ -98,7 +104,7 @@
         margin-right: auto;
     }
     .footer__text, 
-    .header__phone,
+    .footer__phone,
     .footer__link {
         display: none;
     }

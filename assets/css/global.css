@@ -56,15 +56,18 @@ fieldset {
 }
 
 .container {
-    max-width: 1600px;
-    padding: 0 200px;
+    max-width: 1260px;
+    padding: 0 30px;
     margin: 0 auto;
+}
+
+@-ms-viewport{
+    width: device-width;
 }
 
 @media (max-width: 1024px) {
     .container {
         max-width: 1024px; 
-        padding: 0 30px;       
     }
 }
 
