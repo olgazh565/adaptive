@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 120px;
+    margin-bottom: 118px;
 }
 
 .logo {
@@ -25,19 +25,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .contact__phone {
-    font-size: 23.85px;
-    line-height: 28px;
-    margin-bottom: 5px;
+    font-size: 23.8px;
+    line-height: 33px;
+    margin-bottom: 4px;
 }
 
 .contact__link {
     font-size: 16px;
-    line-height: 19px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    display: inline;
+    line-height: 16px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    padding-bottom: 3px;
 }
 
 .contact__phone-mobile {
@@ -57,7 +59,7 @@
     line-height: 31px;
     color: rgba(255, 255, 255, 0.75);
     padding: 0 120px;
-    margin: 0 auto 90px;
+    margin: 0 auto 88px;
 }
 
 .header__button {
@@ -89,25 +91,34 @@
     }
     .contact__phone {
         font-size: 21px;
-        line-height: 25px;
-        margin-bottom: 6px;        
+        line-height: 29px;
+        margin-bottom: 6px;
     }
     .contact__link {
         font-size: 13px;
-        line-height: 15px;
+        line-height: 13px;
         padding-bottom: 2px;
+        margin-left: -2px;
     }
     .header__title {
         font-size: 40px;
         line-height: 47px;
-        margin-bottom: 27.57px;
-        padding: 0 92px;
+        margin-bottom: 29px;
+        padding: 0 92px;        
     }
     .header__text {
         font-size: 18px;
         line-height: 25px;
-        margin-bottom: 59px;
+        margin-bottom: 57px;
         padding: 0 105px;
+    }
+    .header__button {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 14px 48px;
+        display: block;
+        width: 202px;
     }
 }
 
@@ -122,7 +133,7 @@
 
 @media (max-width: 650px) {
     .header {
-        padding: 15px 0 67px;       
+        padding: 15px 0 65px;       
     }
     .header-wrap {
         margin-bottom: 65px;
@@ -137,23 +148,25 @@
     }
     .contact__phone-mobile {
         display: block;
+        width: 24px;
+        height: 24px;
     }
     .header__title {
         font-size: 20px;
         line-height: 23px;
         padding: 0;
-        margin-bottom: 25px;
+        margin-bottom: 26px;
     }
     .header__text {
         font-size: 14px;
         line-height: 20px;
         padding: 0;
-        margin-bottom: 54px;
+        margin-bottom: 53px;
     }
     .header__button {
         width: 160px;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 20px;
         padding: 9px 28px;
     }
 }

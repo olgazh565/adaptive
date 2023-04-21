@@ -28,7 +28,8 @@
 .footer__text {
     font-weight: 500;
     font-size: 12px;
-    line-height: 17px;
+    line-height: 13px;
+    margin-left: -7px;
 }
 
 .footer__text-mobile {
@@ -40,10 +41,17 @@
         padding: 37px 0 49px;       
     }
     .footer__logo {
-        margin-right: 21px;
+        margin-right: 19px;
     }     
     .footer__text {
         color: rgba(255, 255, 255, 0.5);
+        margin-left: -24px;
+    }
+    .footer__copyright {
+        line-height: 16px;
+    }
+    .hidden-on-1280 {
+        display: none;
     }
 }
 
@@ -65,9 +73,6 @@
     }
     .footer__text {
         display: none;
-    }
-    .contact__phone-mobile {
-        display: block;
     }
     .footer__text-mobile {
         display: block;
