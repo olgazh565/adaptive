@@ -152,6 +152,9 @@
         line-height: 19px;
         padding: 10px 26px;
         width: 174px;
+    }
+    .contacts__button::first-letter {
+        text-transform: uppercase;
     }    
     .contacts__agreement {
         font-size: 11px;
